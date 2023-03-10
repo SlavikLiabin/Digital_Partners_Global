@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="body__inner">
+        <h1 class="greeting">Hello</h1>
+        <form class="form">
+          <p class="form__text">
+            For business enquiries please <br />
+            use the form below
+          </p>
+          <p class="form__required">*Required</p>
+          <div class="fields">
+            <p class="form__subtitle-one">Name*</p>
+            <input class="form__input" type="text" />
+
+            <p class="form__subtitle">Company*</p>
+            <input class="form__input" type="text" />
+
+            <p class="form__subtitle">E-mail*</p>
+            <input class="form__input" type="email" />
+
+            <p class="form__subtitle">Phone*</p>
+            <input class="form__input" type="tel" />
+
+            <p class="form__subtitle">Subject*</p>
+            <input class="form__input" type="text" />
+
+            <p class="form__subtitle">Message*</p>
+            <textarea
+              class="form__input-textarea"
+              rows="2"
+              cols="45"
+              name="text"
+              wrap="hard"
+            >
+            But I must explain to you how all
+            this mistaken idea of denouncing
+            </textarea>
+
+            <div class="policy">
+              <input class="policy__checkbox" type="checkbox" />
+              <p class="policy-text">
+                I accept
+                <a href="#" class="policy__link">Terms and Privacy Policy</a>
+              </p>
+            </div>
+          </div>
+          <button class="form__btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
